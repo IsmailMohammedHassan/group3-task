@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://secure.booking.com/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- start nav bar -->
+    <nav class="navbar navbar-expand-lg bg-primary_color">
+        <div class="container">
+            <a class="navbar-brand font-white fw-bold fs-4" href="#">Booking.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-content-center ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">EGP</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#"><img class="lang-img rounded-circle"
+                                src="./img/1235px-US_flag_51_stars.svg.png" alt=""></a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link font-white" href="#">
+                            <svg height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true"
+                                focusable="false">
+                                <path fill="#FFFF"
+                                    d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link font-white" href="#">
+                            <svg class="bk-icon -streamline-bell_normal" height="24" width="24" viewBox="0 0 24 24"
+                                role="presentation" aria-hidden="true" focusable="false">
+                                <path fill="#FFFF"
+                                    d="M9.28 21.961a2.837 2.837 0 0 0 5.445 0 .75.75 0 1 0-1.44-.422 1.337 1.337 0 0 1-2.565 0 .75.75 0 1 0-1.44.422zM12.75 3V.75a.75.75 0 0 0-1.5 0V3a.75.75 0 0 0 1.5 0zm-.75.75a6.75 6.75 0 0 1 6.75 6.75c0 3.154.29 5.436.785 6.994.323 1.02.684 1.59.995 1.84L21 18H3l.59 1.212c.248-.315.572-.958.88-2 .49-1.66.78-3.872.78-6.712A6.75 6.75 0 0 1 12 3.75zm0-1.5a8.25 8.25 0 0 0-8.25 8.25c0 2.702-.272 4.772-.72 6.288-.254.864-.493 1.336-.62 1.5A.75.75 0 0 0 3 19.5h18c.708 0 1.022-.892.47-1.335.019.016-.008-.015-.07-.113-.14-.223-.29-.553-.435-1.012-.443-1.396-.715-3.529-.715-6.54A8.25 8.25 0 0 0 12 2.25z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item list-property">
+                        <div>
+                            <a class="nav-link active" aria-current="page" href="#">List your property</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item mx-lg-2 d-flex align-items-center">
+                        <a class="text-decoration-none " href="">
+                            <div class="d-flex align-items-center ">
+                                <div class="mx-lg-2">
+                                    <img class="nav-personal-img rounded-circle "
+                                        src="./img/WhatsApp Image 2021-09-25 at 9.25.46 PM.jpeg" alt="">
+                                </div>
+                                <div class="d-flex flex-column align-items-start justify-content-center">
+                                    <p class="person-name">Eslam Shaheer</p>
+                                    <p class="font-secoundry_color membership">Guience level 1</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- end nav -->
+
+    <!-- start header -->
+
+
+    <header>
+        <div class="container py-5 search-container">
+            <h3>Where to next, Shaheer!</h3>
+            <p>Find exclusive Genius rewards in every corner of the world!</p>
+            <div class="input-group search-group">
+                <input type="search" class="form-control city-search me-1" placeholder="Where are you going?"
+                    aria-label="Search" aria-describedby="search-addon" />
+                <input type="date" class="form-control date-search me-1" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <input type="search" class="form-control count-saerch me-1" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-primary">Search</button>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">I'm looking for an entire home or
+                    apartment</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">I'm traveling for work</label>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- end header -->
+    <!-- start covid -->
+    <section class="my-5">
+        <div class="container">
+            <div class="card d-flex align-content-center">
+                <div class="card-body    d-flex align-items-center">
+                    <span class="coronavirus-banner__icon"><svg class="bk-icon -streamline-info_sign" height="20"
+                            width="20" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false">
+                            <path
+                                d="M14.25 15.75h-.75a.75.75 0 0 1-.75-.75v-3.75a1.5 1.5 0 0 0-1.5-1.5h-.75a.75.75 0 0 0 0 1.5h.75V15a2.25 2.25 0 0 0 2.25 2.25h.75a.75.75 0 0 0 0-1.5zM11.625 6a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
+                            </path>
+                        </svg></span>
+                    <span>Get the advice you need. Check the latest COVID-19 restrictions before you travel. <a
+                            href="">Learn more</a> </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end covid -->
+
+    <!-- start recent search  -->
+    <section>
+        <div class="container recent-section">
+            <h3>Your Recent Searches</h3>
+            <ul class="d-flex my-3  justify-content-between flex-column flex-md-row">
+                <li class="mx-auto me-md-3 w-100">
+                    <div class="card card-div mb-3 px-2 ">
+                        <div class="row g-0 justify-content-evenly align-items-center">
+                            <div class="col-md-3 col-lg-2 col-1 ">
+                                <img src="https://cf.bstatic.com/xdata/images/city/square100/613095.webp?k=8caf960d96a59e284ac1518ac8777e89d17fda6572acd84dbec151f627c7bf07&o="
+                                    class="img-fluid rounded" alt="...">
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body  ">
+                                    <p class="card-title recent-title">Card title</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mx-auto me-md-3 w-100">
+                    <div class="card card-div mb-3 px-2 ">
+                        <div class="row g-0 justify-content-evenly align-items-center">
+                            <div class="col-md-3 col-lg-2 col-1">
+                                <img src="https://cf.bstatic.com/xdata/images/city/square100/613095.webp?k=8caf960d96a59e284ac1518ac8777e89d17fda6572acd84dbec151f627c7bf07&o="
+                                    class="img-fluid rounded" alt="...">
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body  ">
+                                    <p class="card-title recent-title ">Card title</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mx-auto  w-100">
+                    <div class="card card-div mb-3 px-2 ">
+                        <div class="row g-0 justify-content-evenly align-items-center">
+                            <div class="col-md-3 col-lg-2 col-1">
+                                <img src="https://cf.bstatic.com/xdata/images/city/square100/613095.webp?k=8caf960d96a59e284ac1518ac8777e89d17fda6572acd84dbec151f627c7bf07&o="
+                                    class="img-fluid rounded" alt="...">
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body  ">
+                                    <p class="card-title recent-title">Card title</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+    </section>
+    <!-- end recent -->
+
+    <!-- start grid section -->
+    <div class="container">
+        <div class="grid-images">
+            <div class="row">
+                <div class="col-lg-6 col-12  position-relative  ">
+                    <div class="unified-postcard__header first-img-row">
+                        <h3>
+                            <a href="">Kavoúsion
+                                <img src="https://cf.bstatic.com/static/img/flags/24/gr/6863a8c81b841fd9a738f543550ec32c87bfafc0.png"
+                                    alt="Greece" valign="middle">
+                            </a>
+                        </h3>
+                        <p>
+                            7 properties
+                        </p>
+                    </div>
+                    <img class="grid-country-img w-100 mb-4"
+                        src="https://cf.bstatic.com/xdata/images/city/540x270/844103.webp?k=b4ff3d17a962184dfa8823beec573fa3f679306e8b3fa897b901ba0dedb157bd&o="
+                        alt="">
+                </div>
+                <div class="col-lg-6 col-12  position-relative ">
+                    <div class="unified-postcard__header first-img-row">
+                        <h3>
+                            <a href="">Kavoúsion
+                                <img src="https://cf.bstatic.com/static/img/flags/24/gr/6863a8c81b841fd9a738f543550ec32c87bfafc0.png"
+                                    alt="Greece" valign="middle">
+                            </a>
+                        </h3>
+                        <p>
+                            7 properties
+                        </p>
+                    </div>
+                    <img class="grid-country-img w-100 mb-4"
+                        src="https://cf.bstatic.com/xdata/images/city/540x270/693535.webp?k=39f09e1a64b76dc38b82fae5e51dd9728a68c06b8a0a26c2e6254a80eb792e72&o="
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-12 position-relative secound-img-row ">
+                    <div class="unified-postcard__header secound-img-row">
+                        <h3>
+                            <a href="">Kavoúsion
+                                <img src="https://cf.bstatic.com/static/img/flags/24/gr/6863a8c81b841fd9a738f543550ec32c87bfafc0.png"
+                                    alt="Greece" valign="middle">
+                            </a>
+                        </h3>
+                        <p>
+                            7 properties
+                        </p>
+                    </div>
+                    <img class="grid-country-img w-100 mb-4"
+                        src="https://cf.bstatic.com/xdata/images/city/540x270/810971.webp?k=34cb40f6b8444cb6f23969737d2c6a3d91b31bba1f8aa9ccf79bdc807d9b1dd1&o="
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-12 position-relative secound-img-row">
+                    <div class="unified-postcard__overlay">
+                        <div class="unified-postcard__header secound-img-row">
+                            <h3>
+                                <a href="">
+                                    Pieve Di Ledro
+                                    <img src="https://cf.bstatic.com/static/img/flags/24/it/b539a003f197845e447b9d00d91cd74dd57bf3dd.png"
+                                        alt="Italy" valign="middle">
+                                </a>
+                            </h3>
+                            <p>
+                                30 properties
+                            </p>
+                        </div>
+                        <img class="grid-country-img w-100 mb-4 secound-img-row"
+                            src="https://cf.bstatic.com/xdata/images/city/540x270/882469.webp?k=fca6ffc78aa7dd45be134b893556a76248ae24ddb3edda23a6fb8f118faa660f&o="
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 position-relative">
+                    <div class="unified-postcard__overlay">
+                        <div class="unified-postcard__header secound-img-row">
+                            <h3>
+                                <a href="">Kavoúsion
+                                    <img src="https://cf.bstatic.com/static/img/flags/24/gr/6863a8c81b841fd9a738f543550ec32c87bfafc0.png"
+                                        alt="Greece" valign="middle">
+                                </a>
+                            </h3>
+                            <p>
+                                7 properties
+                            </p>
+                        </div>
+                    </div>
+                    <img class="grid-country-img w-100 mb-4"
+                        src="https://cf.bstatic.com/xdata/images/city/540x270/877703.webp?k=045b05cfe6db19d279059e7864898ff3dc2f367d20500d9c824cbcea696c85d7&o="
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end grid section -->
+
+
+
+
+    <!-- Start Browse by property type -->
+    <div class="container py-4 ">
+        <h3 class="mb-4">Browse by property type</h3>
+        <div class="d-flex justify-content-between flex-column  flex-md-row">
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0 ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0 ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Browse by property type -->
+
+
+    <!-- Start Explore Egypt -->
+    <div class="container py-4 ">
+        <h3 class="">Explore Egypt</h3>
+        <h6 class="mb-4 text-muted">hese popular destinations have a lot to offer</h6>
+        <div class="d-flex justify-content-between flex-column  flex-md-row">
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0 ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0 ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 13rem; height: 18rem;">
+                <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title fw-bold">Hotels</p>
+                    <p class="card-text text-muted">811.061 hotels</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Explore Egypt -->
+
+
+
+    <!-- Start Get inspiration for your next trip -->
+
+    <div class="container">
+        <div class="grid-images">
+            <div class="row">
+
+                <div class="col-lg-4 col-12 position-relative">
+                    <img class="grid-country-img w-100 inspiration-img rounded-1"
+                        src="https://cf.bstatic.com/xdata/images/xphoto/700x350/123807895.webp?k=4a027e6bbbce887f4f9a7441a3efd6e033cc6ef6474481566ab6e9ca5f0ca191&o="
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-12 position-relative">
+                    <img class="grid-country-img w-100 inspiration-img rounded-1"
+                        src="https://cf.bstatic.com/xdata/images/xphoto/540x405/123806704.webp?k=ee390765951cff7caf2b05e61c8f56ab3f8a5c2b689279616cc8f94fb81184be&o="
+                        alt="">
+
+                </div>
+                <div class="col-lg-4 col-12 position-relative">
+                    <img class="grid-country-img w-100 inspiration-img rounded-1"
+                        src="https://cf.bstatic.com/xdata/images/xphoto/540x405/122925057.webp?k=09f14b17546723a74f3c71cc9d5e5040e60c1594234b5a06cc3ce376ad299da5&o="
+                        alt="">
+                </div>
+                <div class="col-lg-6 col-12  position-relativ">
+                    <img class="grid-country-img w-100 inspiration-img rounded-1"
+                        src="https://cf.bstatic.com/xdata/images/hotel/max500/121406433.jpg?k=35435a71d5387f6a42b598d421231b63f0a4c3f1886d9734e6e669e0576cbb3d&o="
+                        alt="">
+                </div>
+                <div class="col-lg-6 col-12  position-relativ">
+                    <img class="grid-country-img w-100 inspiration-img rounded-1"
+                        src="https://cf.bstatic.com/xdata/images/city/540x270/693535.webp?k=39f09e1a64b76dc38b82fae5e51dd9728a68c06b8a0a26c2e6254a80eb792e72&o="
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End Get inspiration for your next trip -->
+
+
+
+
+    <!-- Start Homes guests love -->
+    <div class="container py-4 ">
+        <h3 class="mb-4">Homes guests love</h3>
+        <div class="d-flex justify-content-between flex-column  flex-md-row">
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title text-muted mb-0">3 Epoques</p>
+                    <p class="card-text text-muted mb-2">Prague</p>
+
+                    <p class="card-text mb-1">Started from <span>2227 EGP</span></p>
+                    <div class="d-flex justify-content-between align-items-center w-75">
+                        <span class=" bg-primary_color badge-rating ">9.0</span> <span class="fw-normal">Wonderful
+                        </span> <span class="text-muted number-reviews">1678
+                            reviews</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title text-muted mb-0">3 Epoques</p>
+                    <p class="card-text text-muted mb-2">Prague</p>
+
+                    <p class="card-text mb-1">Started from <span>2227 EGP</span></p>
+                    <div class="d-flex justify-content-between align-items-center w-75">
+                        <span class=" bg-primary_color badge-rating ">9.0</span> <span class="fw-normal">Wonderful
+                        </span> <span class="text-muted number-reviews">1678
+                            reviews</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title text-muted mb-0">3 Epoques</p>
+                    <p class="card-text text-muted mb-2">Prague</p>
+
+                    <p class="card-text mb-1">Started from <span>2227 EGP</span></p>
+                    <div class="d-flex justify-content-between align-items-center w-75">
+                        <span class=" bg-primary_color badge-rating ">9.0</span> <span class="fw-normal">Wonderful
+                        </span> <span class="text-muted number-reviews">1678
+                            reviews</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title text-muted mb-0">3 Epoques</p>
+                    <p class="card-text text-muted mb-2">Prague</p>
+
+                    <p class="card-text mb-1">Started from <span>2227 EGP</span></p>
+                    <div class="d-flex justify-content-between align-items-center w-75">
+                        <span class=" bg-primary_color badge-rating ">9.0</span> <span class="fw-normal">Wonderful
+                        </span> <span class="text-muted number-reviews">1678
+                            reviews</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End Homes guests love -->
+
+    <!-- start Connect with other travelers -->
+
+    <div class="container py-4 ">
+        <h3 class="mb-4">Homes guests love</h3>
+        <div class="d-flex justify-content-between flex-column  flex-md-row">
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title  mb-2">3 Czech Republic</p>
+                    <p class="card-text text-muted mb-0">Travel community</p>
+                    <p class="card-text text-muted mb-0">114,368 travelers</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title  mb-2">3 Czech Republic</p>
+                    <p class="card-text text-muted mb-0">Travel community</p>
+                    <p class="card-text text-muted mb-0">114,368 travelers</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title  mb-2">3 Czech Republic</p>
+                    <p class="card-text text-muted mb-0">Travel community</p>
+                    <p class="card-text text-muted mb-0">114,368 travelers</p>
+                </div>
+            </div>
+            <div class="card border-0 mb-3 mx-auto" style="width: 16rem; height: 22rem;">
+                <img class="h-75 rounded-2"
+                    src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=  "
+                    class="card-img-top" alt="...">
+                <div class="card-body my-2 p-0  ">
+                    <p class="card-title  mb-2">3 Czech Republic</p>
+                    <p class="card-text text-muted mb-0">Travel community</p>
+                    <p class="card-text text-muted mb-0">114,368 travelers</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End Connect with other travelers -->
+
+    <!-- start footer -->
+    <footer class="row mx-auto">
+        <div class="footer-search d-flex flex-column justify-content-center align-items-center">
+            <h3>Save time, save money!</h3>
+            <p class="text-muted">Sign up and we'll send the best deals to you</p>
+            <div>
+
+                <div class="input-group">
+                    <div class="form-outline mx-md-2 mx-auto">
+                        <input type="search" placeholder="Your Email" class="form-control footer-btn-search " />
+                    </div>
+                    <a href="#" class="btn btn-primary btn-lg rounded-2 mx-auto mx-md-2 " tabindex="-1" role="button"
+                        aria-disabled="true">Search</a>
+                </div>
+                <div class="form-check form-check-inline mx-2 my-2 fs-6">
+                    <input class="form-check-input " type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label " for="inlineCheckbox2"> Send me a link to get the FREE
+                        Booking.com
+                        app!</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-primary_color d-flex justify-content-center border-bottom border-light">
+            <div class="nav-item list-property my-3">
+                <div>
+                    <a class="nav-link active " aria-current="page" href="#">List your property</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-primary_color">
+            <ul class="d-flex footer-ul my-2">
+                <li class="mx-2"><a href=""> Mobile version</a></li>
+                <li class="mx-2"><a href="">Manage your booking</a></li>
+                <li class="mx-2"><a href="">Contact Customer Service</a></li>
+                <li class="mx-2"><a href="">Become an affiliate</a></li>
+                <li class="mx-2"><a href="">Booking.com for Business</a></li>
+            </ul>
+        </div>
+        <div class="d-lg-block d-none">
+            <div class="d-flex footer-list my-3">
+                <div class="mx-5">
+                    <ul>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                    </ul>
+                </div>
+                <div class="mx-5">
+                    <ul>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                    </ul>
+                </div>
+                <div class="mx-5">
+                    <ul>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                    </ul>
+                </div>
+                <div class="mx-5">
+                    <ul>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                    </ul>
+                </div>
+                <div class="mx-5">
+                    <ul>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                        <li>Countries</li>
+                        <li>Homes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center my-4 font-third_color fw-bold">
+                <p>Extranet login</p>
+            </div>
+            <div class="container ms-5 w-50 my-2">
+                <p class="copy-rights text-muted">Copyright © 1996–2021 Booking.com™. All rights reserved.</p>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                <p class="copy-rights text-muted ">Booking.com is part of Booking Holdings Inc., the world leader in
+                    online
+                    travel and related services.</p>
+            </div>
+            <div class="footer-images d-flex justify-content-center">
+                <ul class="d-flex justify-content-evenly">
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+                            alt=""></li>
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+                            alt=""></li>
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+                            alt=""></li>
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+                            alt=""></li>
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png"
+                            alt=""></li>
+                    <li><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+                            alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
